@@ -1,0 +1,10 @@
+@mixin btn_sign_up {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 20px;
+    color: #fff;
+    background-color: $btn_bg;
+    border-radius: 7px;
+    text-decoration: none;
+}

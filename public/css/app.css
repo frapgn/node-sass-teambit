@@ -12,32 +12,47 @@
 
 body {
   font-family: sans-serif;
+  color: #58402c;
 }
-
-/* HEADER */
 
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
   border-bottom: 1px solid #58402c;
 }
 
-.container nav {
+header nav {
   padding: 20px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.container nav li {
+header nav li {
   list-style: none;
   display: inline-block;
 }
 
-.container nav li a {
+header nav li a {
   text-decoration: none;
   color: #58402c;
   padding: 0 10px;
+}
+
+.btn-sign-up {
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 20px;
+  color: #fff;
+  background-color: #30488f;
+  border-radius: 7px;
+  text-decoration: none;
 }
 
