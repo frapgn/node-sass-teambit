@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* HEADER */
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-bottom: 1px solid #58402c;
+}
+
+.container nav {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+.container nav li a {
+  text-decoration: none;
+  color: #58402c;
+  padding: 0 10px;
+}
+
