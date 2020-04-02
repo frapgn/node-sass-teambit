@@ -1,3 +1,26 @@
+.s-one-container {
+    @include container;
+    padding: 100px 0;
+}
+
+.s-one-left {
+    float: left;
+    width: $s_one_left_width;
+    h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+}
+
+.s-one-right {
+    float: left;
+    width: $s_one_right_width;
+    height: 200px;
+    img {
+        width: 100%;
+    }
+}
+
 .btn-sign-up {
     @include btn_sign_up;
 }

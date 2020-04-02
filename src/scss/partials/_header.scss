@@ -1,19 +1,22 @@
 /* HEADER */
 header {
-    border-bottom: 1px solid $primary_color;
-    nav {
-        padding: 20px 0;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+    .h-container {
+        @include container;
+        border-bottom: 1px solid #bdb5af;
+        nav {
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
 
-        li {
-            list-style: none;
-            display: inline-block;
-            a {
-                text-decoration: none;
-                color: $primary_color;
-                padding: 0 10px;
+            li {
+                list-style: none;
+                display: inline-block;
+                a {
+                    text-decoration: none;
+                    color: $primary_color;
+                    padding: 0 10px;
+                }
             }
         }
     }
